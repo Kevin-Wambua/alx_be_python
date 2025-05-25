@@ -1,8 +1,10 @@
-#Assign variables for age and years to add
-age = int(30)  # Current age in years
-years_to_add = 27  # Number of years to add
-# Calculate future age
-future_age = age + years_to_add
+# future_age_calculator.py
+
+# Ask the user for their current age
+current_age = int(input("How old are you? "))
+
+# Calculate age in the year 2050
+age_in_2050 = current_age + 27
+
 # Print the result
-print(f"In 2050, you will be {future_age} years old.")
-# Output: In 2050, you will be 57 years old.
+print(f"In 2050, you will be {age_in_2050} years old.")
